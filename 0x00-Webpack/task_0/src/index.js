@@ -1,11 +1,6 @@
 import $ from 'jquery'
 
-const paragraphs = [
-  'Holberton Dashboard',
-  'Dashboard data for the students',
-  'Copyright - Holberton School'
-]
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
 
-for (let i = 0; i < paragraphs.length; i++) {
-  $('body').append(`<p>${paragraphs[i]}</p>`)
-}
